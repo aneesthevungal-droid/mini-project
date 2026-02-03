@@ -1,0 +1,4 @@
+.bank-wrper{
+    display: flex;
+    flex-direction: column;
+}

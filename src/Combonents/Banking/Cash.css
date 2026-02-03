@@ -1,0 +1,41 @@
+.cash-incom{
+    display: flex;
+   justify-content: center;
+   background-color: white;
+   padding: 0.5em;
+   gap: 0.1px;
+   border-radius: 3px;
+ 
+
+}
+.Cash-incom-card{
+    display: flex;
+    flex-direction: column;
+
+   
+}
+.cash-hed{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    background-color: #199aa9;
+    padding: 0.5em;
+    border-radius: 3px;
+    width: 100%;
+
+}
+/* .cash-main-wraper{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+} */
+.item-card{
+   width: 80vw;
+   margin-bottom: 0.2em;
+}
+.page-hed{
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    color: gray;
+}

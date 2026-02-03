@@ -1,0 +1,32 @@
+.Condiner{
+    width: 150px;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    box-shadow: 0px 0.2px 2px white;
+    display: none;
+    margin-top: 1px;
+    
+ 
+}
+.Condiner p:hover{
+    background-color: #c4eaee93;
+    border-radius: 3px;
+}
+.main{
+    margin-left: 1em;
+    padding: 0.5em;
+    color: gray;
+}
+.sub-m{
+    margin-left: 3em;
+    color: gray;
+    padding: 0.5em;
+}
+@media(max-width:650px){
+    .Condiner{
+        display: block;
+    }
+}
+

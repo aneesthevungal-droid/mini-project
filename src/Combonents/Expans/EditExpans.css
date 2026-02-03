@@ -1,0 +1,43 @@
+.edit-Form{
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    height: fit-content;
+    padding: 1.5em;
+    margin-top: 1em;
+    border-radius: 3px;
+    margin-left: 1em;
+    width: 500px;
+    margin-bottom: 1em;
+    background-color: white;
+
+}
+.edit-Form input{
+   
+    background-color: rgba(223, 241, 229, 0.942);;
+    padding: 0.9em;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+.edit-Form select{
+     background-color: rgba(223, 241, 229, 0.942);;
+    padding: 0.9em;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+label{
+    margin-top: 1em;
+}
+.edit-Form button{
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    background-color: green;
+    color: white;
+}
+textarea{
+    padding: 1.5em;
+}

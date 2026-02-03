@@ -1,0 +1,79 @@
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    box-shadow: 0px 0px 2px white;
+    height: 60px;
+  
+    
+}
+.logo{
+    margin-left: 1.5em ;
+
+    font-size: 25px;
+    font-weight: bolder;
+    color:#199AA9;
+    margin-bottom: 2.5em;
+    margin-top: 2.5em;
+}
+.m-icon{
+    display: none;
+}
+.logo-box{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.profil-imeg{
+  
+    width: 30px;
+    height:30px ;
+    border-radius: 50%;
+    background-color:rgb(214, 213, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+}
+.nav-items span{
+    padding: 10px;
+    
+
+}
+nav .nav-items span:hover{
+    background-color:rgba(223, 241, 229, 0.942) ;
+    border-radius: 8px;
+}
+.login{
+    color: #199AA9;
+}
+.sighn-in{
+    color: #199AA9;
+}
+
+
+@media(max-width:650px) {
+    .logo{
+        font-size: 15px;
+    }
+    .m-icon{
+        display: flex;
+        margin-bottom: auto;
+        margin-top: auto;
+        margin-right: 1.5em;
+    }
+    .profil-imeg{
+        display: none;
+    }
+   
+}

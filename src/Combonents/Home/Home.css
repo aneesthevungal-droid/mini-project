@@ -1,0 +1,33 @@
+.con-body{
+    background-color: white;
+}
+.co-hed{
+    text-align: center;
+  
+    background-color: white;
+}
+.co-hed h1{
+    color: #199aa9;
+}
+.co-hed p{
+    margin-top: 1em;
+    font-size: 19px;
+    color: #199aa9;
+}
+.paragraph{
+    background-color:white;
+    width: 400px;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    border-radius: 3px;
+    color: #199aa9;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    padding: 2em;
+    color: #199aa9;
+}

@@ -1,0 +1,12 @@
+.serch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8em;
+}
+.serch input{
+    border: none;
+    background-color: #c4eaee93; 
+    padding: 0.5em;
+    border-radius: 3px;
+}

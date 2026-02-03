@@ -1,0 +1,73 @@
+.expanses{
+    display: flex;
+    flex-direction: column;
+}
+.page-in-nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.page-in-nav button{
+    color:white;
+    background-color:#199aa9;
+    border: none;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    margin-right: 2em;
+    border-radius: 3px;
+   
+}
+table{
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   margin-top: 1em;
+   background-color: white;
+   padding: 1em;
+   height: fit-content;
+   margin-right: 1em;
+   border-radius: 7px;
+   
+}
+thead{
+    background-color: #199aa9;
+    padding: 5px;
+    display: flex;
+    border-radius: 3px;
+  
+}
+th{
+    width: 100vw;
+    text-align: start;  
+    color: rgb(209, 201, 201);
+ 
+
+}
+tbody{
+    margin-top: 1em;
+}
+tbody tr td{
+  
+   padding: 10px;
+
+
+}
+table tbody tr td{
+    width: 100vw;
+}
+table tbody tr:last-child{
+    margin-left: 1em;
+}
+table tbody tr td button{
+    border: none;
+    border-radius: 3px;
+    margin-right: 2px;
+    padding: 5px;
+}
+@media(max-width:650px){
+    table{
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+}
